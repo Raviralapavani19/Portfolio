@@ -518,3 +518,30 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
+
+/* For tablets */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+  img {
+    max-width: 250px;
+  }
+}
+
+/* For small phones */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  img {
+    max-width: 200px;
+  }
+}
